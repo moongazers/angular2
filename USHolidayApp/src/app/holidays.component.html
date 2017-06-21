@@ -1,0 +1,5 @@
+<ul class="holidays">
+    <li *ngFor="let holiday of holidays" (click)="onSelect(holiday)">
+    <span class="order">{{holiday.id}}</span> {{holiday.name}}
+    </li>
+</ul>

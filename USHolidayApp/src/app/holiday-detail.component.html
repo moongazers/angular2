@@ -1,0 +1,18 @@
+<div *ngIf="holiday">
+    <h2>"{{holiday.name}}" details:</h2>
+    <table class="detail-info">
+    <tr>
+        <td>Date: </td>
+        <td>{{holiday.date}}</td>
+    </tr>
+    <tr>
+        <td>Observed date: </td>
+        <td>{{holiday.observed}}</td>
+    </tr>
+    <tr>
+        <td>Public holiday: </td>
+        <td>{{holiday.public}} </td>
+    </tr>
+    </table>
+    <button class="back-button" (click)="goBack()">Back</button>
+</div>
