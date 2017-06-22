@@ -7,8 +7,8 @@ import { Holiday } from './holiday';
 
 @Injectable()
 export class HolidayService {
-  private key = 'ec7db08d-c51d-4e63-8129-2d5abbd25f28'; //test key
-  // private key = '198f4d73-96be-4a0b-adb9-2f80640e2c6e'; // real key, limit 500 per month
+  // private key = 'ec7db08d-c51d-4e63-8129-2d5abbd25f28'; //test key
+  private key = '198f4d73-96be-4a0b-adb9-2f80640e2c6e'; // real key, limit 500 per month
 
   private holidaysUrl = 'https://holidayapi.com/v1/holidays?key=' + this.key + '&country=US&year=2015';  // URL to web api
   
