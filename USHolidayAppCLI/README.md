@@ -5,7 +5,7 @@ How to run:
 - ng serve --open
 
 
-Finally figure a solution to include "Angular Material UI":  start a new app using Angular CLI and problem solved.<br />
+Finally figure out a solution to include "Angular Material UI":  start a new app using Angular CLI and problem solved.<br />
 
 "list" and "button" features from Angular Material UI are used:<br />
 import {MdButtonModule} from '@angular/material';<br />
