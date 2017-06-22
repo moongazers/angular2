@@ -17,7 +17,7 @@ export class HolidayService {
   getHolidays(): Promise<Holiday[]> {
     return this.http.get(this.holidaysUrl)
                     .toPromise()
-                    .then(response =>{
+                    .then(response => {
                       let arr = [];
                       let holidays = response.json().holidays;
                       let id = 0;

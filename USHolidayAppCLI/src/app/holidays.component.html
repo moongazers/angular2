@@ -1,0 +1,11 @@
+<md-list class="holidays">
+    <md-list-item class="holiday-item" *ngFor="let holiday of holidays" (click)="onSelect(holiday)">
+    <span class="order">{{holiday.id}}</span> {{holiday.name}}
+    </md-list-item>
+</md-list>
+
+<!--<ul class="holidays">
+    <li *ngFor="let holiday of holidays" (click)="onSelect(holiday)">
+    <span class="order">{{holiday.id}}</span> {{holiday.name}}
+    </li>
+</ul>-->

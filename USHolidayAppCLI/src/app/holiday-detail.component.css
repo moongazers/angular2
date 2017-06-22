@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    height: 15em;
+    width: 20em;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+table, td{
+    border: 1px solid;
+}
+
+td {
+    padding-left: 1em;
+}
+
+.back-button {
+    display: block;
+    margin: 0 auto;
+    font-size: 21px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #E8E8E8;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #7C7C7C;
+    letter-spacing: 1px;
+}
