@@ -7,7 +7,8 @@ How to run:
 Have tried all kinds of ways to include Angular Material UI but always logged "unmet peer dependencies";<br />
 looks like it's an existing issue: https://github.com/angular/angular-cli/issues/1941, <br />
 so use custom css for now. <br />
-Let me know if there is a workaround to solve it...<br />
+~~Let me know if there is a workaround to solve it...~~<br />
+The one with "Angular Material UI" is "USHolidayAppCLI" repo.  Check that one instead.
 
 
 
